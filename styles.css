@@ -1,0 +1,88 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 0;
+}
+
+.calculator {
+    width: 320px;
+    padding: 15px;
+    border-radius: 40px;
+    background-color: black;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+    border: 2px solid #333;
+}
+
+.display {
+    color: white;
+    font-size: 48px;
+    text-align: right;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 28px;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.btn-gray {
+    background-color: #A5A5A5;
+    color: black;
+}
+
+.btn-dark {
+    background-color: #333;
+    color: white;
+}
+
+.btn-orange {
+    background-color: #FF9500;
+    color: white;
+}
+
+.btn-zero {
+    grid-column: span 2;
+    width: 150px;
+    border-radius: 35px;
+}
+
+@media (max-width: 400px) {
+    .calculator {
+        width: 90%;
+    }
+    button {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
+    .btn-zero {
+        width: 130px;
+    }
+}
