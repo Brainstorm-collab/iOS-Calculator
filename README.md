@@ -20,7 +20,7 @@ A simple, responsive **iOS-style calculator** built using **HTML, CSS, and JavaS
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
 - **HTML5** – Structure & elements  
 - **CSS3** – Styling & layout  
@@ -32,6 +32,6 @@ A simple, responsive **iOS-style calculator** built using **HTML, CSS, and JavaS
 
 Follow these steps to run the project locally:
 
-1. **Clone the Repository**  
+1. **Clone the Repository**
    ```sh
    git clone https://github.com/Brainstorm-collab/iOS-Calculator.git
