@@ -22,8 +22,8 @@ This project mimics the appearance and functionality of the default iOS calculat
 ---
 
 ## 📸 Screenshots
-![Calculator UI](screenshot.png)  
-_(Add a screenshot by placing an image named `screenshot.png` in your project and updating this path.)_
+![iOS Calculator Screenshot](screenshot.png)
+
 
 ---
 
