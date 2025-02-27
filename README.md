@@ -1,33 +1,37 @@
 # 📱 iOS Calculator
 
-A **simple and stylish iOS-style calculator** built with **HTML, CSS, and JavaScript**.  
-This project mimics the appearance and functionality of the default iOS calculator.
+A simple, responsive **iOS-style calculator** built using **HTML, CSS, and JavaScript**.
 
 ---
 
 ## ✨ Features
-✅ **Basic Arithmetic Operations** – Addition, subtraction, multiplication, and division  
-✅ **Responsive UI** – Works on mobile and desktop devices  
-✅ **Smooth Animations** – Button click effects for an authentic feel  
-✅ **Clean & Minimalist Design** – Inspired by iOS aesthetics  
-✅ **Lightweight & Fast** – No unnecessary libraries, just pure HTML, CSS, and JS  
+
+✅ **iOS-Inspired UI** – A sleek and modern design 🎨  
+✅ **Basic Calculations** – Addition, subtraction, multiplication, and division ➕➖✖️➗  
+✅ **Keyboard Support** – Use keyboard shortcuts for input ⌨️  
+✅ **Responsive Design** – Works on desktop and mobile 📱💻  
+✅ **Lightweight & Fast** – Optimized for smooth performance ⚡  
+
+---
+
+## 📸 Screenshot
+
+![iOS Calculator Screenshot](screenshot.png)
 
 ---
 
 ## 🛠️ Technologies Used
-- **HTML5** – Structure of the calculator  
-- **CSS3** – Styling and layout  
-- **JavaScript (ES6)** – Functional logic  
+
+- **HTML5** – Structure & elements  
+- **CSS3** – Styling & layout  
+- **JavaScript (ES6)** – Logic & functionality  
 
 ---
 
-## 📸 Screenshots
-![iOS Calculator Screenshot](screenshot.png)
+## 📥 Installation Guide
 
+Follow these steps to run the project locally:
 
----
-
-## 🚀 Installation Guide
-1. **Clone the repository**  
+1. **Clone the Repository**  
    ```sh
    git clone https://github.com/Brainstorm-collab/iOS-Calculator.git
